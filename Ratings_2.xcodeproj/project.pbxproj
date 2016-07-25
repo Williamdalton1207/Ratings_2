@@ -7,14 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF242ED11D2DF87A00B8B7B1 /* TransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF242ED01D2DF87A00B8B7B1 /* TransactionViewController.swift */; };
+		DF242ED31D2DF90C00B8B7B1 /* TransactionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF242ED21D2DF90C00B8B7B1 /* TransactionCell.swift */; };
+		DF242ED51D2E007F00B8B7B1 /* Transactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF242ED41D2E007F00B8B7B1 /* Transactions.swift */; };
+		DF242ED71D2F132D00B8B7B1 /* TranDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF242ED61D2F132D00B8B7B1 /* TranDetailViewController.swift */; };
+		DF242ED91D2F135700B8B7B1 /* TranDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF242ED81D2F135700B8B7B1 /* TranDetailCell.swift */; };
+		DF6BA9BE1D243EDF001DF973 /* MerchantDepositViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6BA9BD1D243EDF001DF973 /* MerchantDepositViewController.swift */; };
+		DF6BA9C01D247588001DF973 /* TransactionClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6BA9BF1D247588001DF973 /* TransactionClass.swift */; };
+		DF6BA9C21D2482AD001DF973 /* TerminalClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6BA9C11D2482AD001DF973 /* TerminalClass.swift */; };
+		DF6BA9C41D248D95001DF973 /* CustomerClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6BA9C31D248D95001DF973 /* CustomerClass.swift */; };
+		DF6BA9C61D2491F7001DF973 /* BatchClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6BA9C51D2491F7001DF973 /* BatchClass.swift */; };
+		DF6BA9E81D26D04C001DF973 /* MerchantClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6BA9E71D26D04C001DF973 /* MerchantClass.swift */; };
+		DF6BA9EA1D29E0EC001DF973 /* CustomerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6BA9E91D29E0EC001DF973 /* CustomerCell.swift */; };
+		DF6BA9EC1D29F81E001DF973 /* MerchantDepositCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6BA9EB1D29F81E001DF973 /* MerchantDepositCell.swift */; };
+		DF6BA9EE1D2B637B001DF973 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6BA9ED1D2B637B001DF973 /* Customer.swift */; };
+		DF6BA9F01D2CA553001DF973 /* BatchDepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6BA9EF1D2CA553001DF973 /* BatchDepViewController.swift */; };
+		DF6BA9F21D2CA9AF001DF973 /* BatchDepCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6BA9F11D2CA9AF001DF973 /* BatchDepCell.swift */; };
 		DFE5375E1D1DE0BD004E9C1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE5375D1D1DE0BD004E9C1B /* AppDelegate.swift */; };
 		DFE537601D1DE0BD004E9C1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE5375F1D1DE0BD004E9C1B /* ViewController.swift */; };
 		DFE537631D1DE0BD004E9C1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFE537611D1DE0BD004E9C1B /* Main.storyboard */; };
 		DFE537651D1DE0BD004E9C1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFE537641D1DE0BD004E9C1B /* Assets.xcassets */; };
 		DFE537681D1DE0BD004E9C1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFE537661D1DE0BD004E9C1B /* LaunchScreen.storyboard */; };
+		DFE537701D1E0436004E9C1B /* PlayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE5376F1D1E0436004E9C1B /* PlayersViewController.swift */; };
+		DFE537721D1E0629004E9C1B /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE537711D1E0629004E9C1B /* Player.swift */; };
+		DFE537741D1E06F6004E9C1B /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE537731D1E06F6004E9C1B /* SampleData.swift */; };
+		DFE537761D20896D004E9C1B /* PlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE537751D20896D004E9C1B /* PlayerCell.swift */; };
+		DFE537781D218F73004E9C1B /* PlayerDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE537771D218F73004E9C1B /* PlayerDetailsViewController.swift */; };
+		DFE5377A1D21A282004E9C1B /* GamePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE537791D21A282004E9C1B /* GamePickerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DF242ED01D2DF87A00B8B7B1 /* TransactionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionViewController.swift; sourceTree = "<group>"; };
+		DF242ED21D2DF90C00B8B7B1 /* TransactionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionCell.swift; sourceTree = "<group>"; };
+		DF242ED41D2E007F00B8B7B1 /* Transactions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transactions.swift; sourceTree = "<group>"; };
+		DF242ED61D2F132D00B8B7B1 /* TranDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TranDetailViewController.swift; sourceTree = "<group>"; };
+		DF242ED81D2F135700B8B7B1 /* TranDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TranDetailCell.swift; sourceTree = "<group>"; };
+		DF6BA9BD1D243EDF001DF973 /* MerchantDepositViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MerchantDepositViewController.swift; sourceTree = "<group>"; };
+		DF6BA9BF1D247588001DF973 /* TransactionClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionClass.swift; sourceTree = "<group>"; };
+		DF6BA9C11D2482AD001DF973 /* TerminalClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TerminalClass.swift; sourceTree = "<group>"; };
+		DF6BA9C31D248D95001DF973 /* CustomerClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerClass.swift; sourceTree = "<group>"; };
+		DF6BA9C51D2491F7001DF973 /* BatchClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BatchClass.swift; sourceTree = "<group>"; };
+		DF6BA9E71D26D04C001DF973 /* MerchantClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MerchantClass.swift; sourceTree = "<group>"; };
+		DF6BA9E91D29E0EC001DF973 /* CustomerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerCell.swift; sourceTree = "<group>"; };
+		DF6BA9EB1D29F81E001DF973 /* MerchantDepositCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MerchantDepositCell.swift; sourceTree = "<group>"; };
+		DF6BA9ED1D2B637B001DF973 /* Customer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		DF6BA9EF1D2CA553001DF973 /* BatchDepViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BatchDepViewController.swift; sourceTree = "<group>"; };
+		DF6BA9F11D2CA9AF001DF973 /* BatchDepCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BatchDepCell.swift; sourceTree = "<group>"; };
 		DFE5375A1D1DE0BD004E9C1B /* Ratings_2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ratings_2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFE5375D1D1DE0BD004E9C1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DFE5375F1D1DE0BD004E9C1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +60,12 @@
 		DFE537641D1DE0BD004E9C1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFE537671D1DE0BD004E9C1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DFE537691D1DE0BD004E9C1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFE5376F1D1E0436004E9C1B /* PlayersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayersViewController.swift; sourceTree = "<group>"; };
+		DFE537711D1E0629004E9C1B /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		DFE537731D1E06F6004E9C1B /* SampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		DFE537751D20896D004E9C1B /* PlayerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerCell.swift; sourceTree = "<group>"; };
+		DFE537771D218F73004E9C1B /* PlayerDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerDetailsViewController.swift; sourceTree = "<group>"; };
+		DFE537791D21A282004E9C1B /* GamePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamePickerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +82,28 @@
 		DFE537511D1DE0BD004E9C1B = {
 			isa = PBXGroup;
 			children = (
+				DF242ED81D2F135700B8B7B1 /* TranDetailCell.swift */,
+				DF242ED61D2F132D00B8B7B1 /* TranDetailViewController.swift */,
+				DF242ED41D2E007F00B8B7B1 /* Transactions.swift */,
+				DF242ED21D2DF90C00B8B7B1 /* TransactionCell.swift */,
+				DF242ED01D2DF87A00B8B7B1 /* TransactionViewController.swift */,
+				DF6BA9F11D2CA9AF001DF973 /* BatchDepCell.swift */,
+				DF6BA9EF1D2CA553001DF973 /* BatchDepViewController.swift */,
+				DF6BA9ED1D2B637B001DF973 /* Customer.swift */,
+				DF6BA9EB1D29F81E001DF973 /* MerchantDepositCell.swift */,
+				DF6BA9E91D29E0EC001DF973 /* CustomerCell.swift */,
+				DF6BA9E71D26D04C001DF973 /* MerchantClass.swift */,
+				DF6BA9C51D2491F7001DF973 /* BatchClass.swift */,
+				DF6BA9C31D248D95001DF973 /* CustomerClass.swift */,
+				DF6BA9C11D2482AD001DF973 /* TerminalClass.swift */,
+				DF6BA9BD1D243EDF001DF973 /* MerchantDepositViewController.swift */,
+				DF6BA9BF1D247588001DF973 /* TransactionClass.swift */,
+				DFE537791D21A282004E9C1B /* GamePickerViewController.swift */,
+				DFE537771D218F73004E9C1B /* PlayerDetailsViewController.swift */,
+				DFE537751D20896D004E9C1B /* PlayerCell.swift */,
+				DFE537731D1E06F6004E9C1B /* SampleData.swift */,
+				DFE537711D1E0629004E9C1B /* Player.swift */,
+				DFE5376F1D1E0436004E9C1B /* PlayersViewController.swift */,
 				DFE5375C1D1DE0BD004E9C1B /* Ratings_2 */,
 				DFE5375B1D1DE0BD004E9C1B /* Products */,
 			);
@@ -96,6 +162,7 @@
 				TargetAttributes = {
 					DFE537591D1DE0BD004E9C1B = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 6M7FLJ7S5K;
 					};
 				};
 			};
@@ -135,8 +202,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF6BA9BE1D243EDF001DF973 /* MerchantDepositViewController.swift in Sources */,
+				DF6BA9C61D2491F7001DF973 /* BatchClass.swift in Sources */,
+				DFE5377A1D21A282004E9C1B /* GamePickerViewController.swift in Sources */,
+				DFE537761D20896D004E9C1B /* PlayerCell.swift in Sources */,
+				DF6BA9EA1D29E0EC001DF973 /* CustomerCell.swift in Sources */,
+				DF6BA9C01D247588001DF973 /* TransactionClass.swift in Sources */,
+				DFE537721D1E0629004E9C1B /* Player.swift in Sources */,
+				DF242ED91D2F135700B8B7B1 /* TranDetailCell.swift in Sources */,
+				DF242ED71D2F132D00B8B7B1 /* TranDetailViewController.swift in Sources */,
 				DFE537601D1DE0BD004E9C1B /* ViewController.swift in Sources */,
+				DFE537781D218F73004E9C1B /* PlayerDetailsViewController.swift in Sources */,
+				DF6BA9C21D2482AD001DF973 /* TerminalClass.swift in Sources */,
 				DFE5375E1D1DE0BD004E9C1B /* AppDelegate.swift in Sources */,
+				DF6BA9F01D2CA553001DF973 /* BatchDepViewController.swift in Sources */,
+				DF6BA9EE1D2B637B001DF973 /* Customer.swift in Sources */,
+				DFE537741D1E06F6004E9C1B /* SampleData.swift in Sources */,
+				DF242ED31D2DF90C00B8B7B1 /* TransactionCell.swift in Sources */,
+				DF6BA9C41D248D95001DF973 /* CustomerClass.swift in Sources */,
+				DF242ED51D2E007F00B8B7B1 /* Transactions.swift in Sources */,
+				DF242ED11D2DF87A00B8B7B1 /* TransactionViewController.swift in Sources */,
+				DF6BA9E81D26D04C001DF973 /* MerchantClass.swift in Sources */,
+				DF6BA9EC1D29F81E001DF973 /* MerchantDepositCell.swift in Sources */,
+				DF6BA9F21D2CA9AF001DF973 /* BatchDepCell.swift in Sources */,
+				DFE537701D1E0436004E9C1B /* PlayersViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,10 +338,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Ratings_2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ga.mobile.Ratings-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -260,10 +352,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Ratings_2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ga.mobile.Ratings-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -286,6 +381,7 @@
 				DFE5376E1D1DE0BD004E9C1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
